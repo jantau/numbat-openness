@@ -1,0 +1,3 @@
+[submodule "Numbat"]
+	path = Numbat
+	url = https://github.com/bgcarlisle/Numbat
