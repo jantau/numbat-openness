@@ -1,0 +1,40 @@
+sep=,
+name,type,expressions,description,responce
+reference_to_data,character,yes;no;n_a;unsure,Find a reference to data according to the instructions in the workflow. 'n_a' stays for article type that does not generate new data,single choice
+findability,character,yes;no;unsure,Check whether the detected reference is findable in the repository and/or via Google search,single choice
+comment_4_findability,character,NA,Additional information or problems about findability. Potentially to discuss by  reconciliation,open text field
+data_identifier,character,NA,Document the best identifier which is either a DOI (in form of a link like "https://doi.org/10.1011XY") or if no DOI available a link to the dataset containg files,open text field
+not_a_supplement,character,yes;no;unsure,Only datasets that are stored independently from the article in a data repository or plattform and are supported by metadata,single choice
+comment_3_repository,character,NA,Additional information or problems about repository. Potentially to discuss by  reconciliation,open text field
+repository,character,Addgene;ArrayExpress;BIOS cohort;BioProject;BioStudies;CCDC Karlsruhe;Clinical Proteomic Tumor Analysis Consortium Data Portal;Code Ocean;DRYAD;DataVerseNL;Edmond;European Nucleotide Archive;European genome-phenome archive;FlowRepository;GIN;GWAS Catalog;GenBank;Gene Expression Omnibus;GigaDB;GitHub;GlaxoSmithKline (GSK);Global Health Data Exchange;Harvard Dataverse;Mass Spectrometry Interactive Virtual Environment;Mendeley Data;MetaboLights;NCBI Nucleotide;NCBI Protein;NCBI Sequence Read Archive;NITRC;NeuroVault;Open Science Framework;OpenNeuro;PDBe-KB;PRoteomics IDEntifications Database;PeptideAtlas;PhysioNet;Pride Archive ProteomeXchange Consortium;ProteomeXchange;Sequence Read Archive;Single Cell Portal;Synapse;TCIA.org;TUdatalib;The Electron Microscopy Data Bank;The European Genome-phenome Archive;Worldwide Protein Data Bank;Zenodo,Repository names retrieved from the re3data registry that are common in the biomedicine research,tags
+year_of_data_publication,character,NA,Year of the last update of the examined dataset in form "YYYY",open text field
+data_access,character,yes;no;restricted;unsure,Check whether the data files are accessibe; 'resticted' for the files requiring registration or application (often genetic data),single choice
+comment_5_data_access,character,NA,Additional information or problems about accessibility. Potentially to discuss by  reconciliation,open text field
+dataset_license,character,yes;no;unsure,Check whether standard license information is provided e.g. Creative Commons,single choice
+comment_1_licenses,character,NA,Additional information or problems about licenses. Potentially to discuss by  reconciliation,open text field
+license_name,character,CC BY;CC BY-NC;CC BY-NC-ND;CC BY-NC-SA;CC BY-ND;CC BY-SA;CC0;EBI;GNU GPLv3;ODC-BY;ODbL;PDDL;Public Domain,Choose the name(s) from the list,tags
+own_or_reuse_data,character,own_open-data;open_data_reuse;unsure,Check whether the data is owned by the authors of the article ('own_open-data') or by the different contibutors ('open_data_reuse'); the reuse of own data is also possible which is documented here as 'own_open-data' with clear commentaries about reuse,single choice
+comment_2_own_data,character,NA,Additional information or problems about ownership/authorship. Potentially to discuss by  reconciliation,open text field
+machine_readable_format,character,yes;no;unsure;format_unknown,Check whether the data is machine readable i.e. the format in which data files are uploaded; 'format_unknown' for cases when no format is documented in the metadata or could not be exctracted from the file naming,single choice
+comment_6_machine_readability,character,Additional information or problems about machine readability. Potentially to discuss by  reconciliation,open text field
+machine_readable_format_excel,character,NA,NA,part of multiple choice selection
+machine_readable_format_csv_tsv,character,NA,NA,part of multiple choice selection
+machine_readable_format_txt_docs,character,NA,NA,part of multiple choice selection
+machine_readable_format_other_text_formats,character,NA,NA,part of multiple choice selection
+machine_readable_format_video,character,NA,NA,part of multiple choice selection
+machine_readable_format_audio,character,NA,NA,part of multiple choice selection
+machine_readable_format_picture,character,NA,NA,part of multiple choice selection
+machine_readable_format_fasta_fastq,character,NA,NA,part of multiple choice selection
+machine_readable_format_raw,character,NA,NA,part of multiple choice selection
+machine_readable_format_genetic_sequences,character,NA,NA,part of multiple choice selection
+machine_readable_format_subject_specific_format,character,NA,NA,part of multiple choice selection
+machine_readable_format_unsure,character,NA,NA,part of multiple choice selection
+comment_7_format,character,NA,Additional information or problems about formats. Potentially to discuss by  reconciliation,open text field
+illustrative_files,character,yes;no;inapplicable;unsure,Check whether the found visual elements like images/audio/video have more than just illustrative character,single choice
+comment_8_illustrative_files,character,NA,Additional information or problems about image or audio material. Potentially to discuss by  reconciliation,open text field
+analytical_replication,character,yes;no;replication;no_replication,Check whether the data represents enough 'rawness' and may be replicable in a different study. No precise distinction between replication and no replication is possible. The tendency to a positive response can be documented as 'replication'; the tendency to a negative response can be documented as 'no_replication,single choice
+comment_9_analytical_replication,character,NA,Additional information or problems about analytical replication. Potentially to discuss by  reconciliation,open text field
+open_data_assessment,character,open_data;unsure_open_data;no_open_data,Final decision about opennes of the examined dataset (not applicable on all datasets for the examined article). The response 'unsure' does not appear in the final output as it is interim result for discussion by reconciliation,single choice
+comment_10_assessment,character,NA,Additional information or problems about final assessment. Potentially to discuss by  reconciliation,open text field
+other_comments,character,NA,Additional information,open text field
+comment_other_datasets,character,NA,Documentation of other notes to the datasets,open text field
